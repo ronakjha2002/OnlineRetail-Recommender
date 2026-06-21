@@ -188,17 +188,3 @@ Supports **partial name matching** — you don't need to type the exact product 
 | App | Streamlit |
 | Serialization | Pickle |
 
----
-
-## 📚 References
-
-- Daqing Chen et al. (2012). *Data mining for the online retail industry: A case study of RFM model-based customer segmentation.* Journal of Database Marketing & Customer Strategy Management.
-- UCI Machine Learning Repository — Online Retail II Dataset (ID: 502)
-
----
-
-## 👤 Author
-
-**Ronak Jha**  
-M.Sc. Bioinformatics | Data Science & ML  
-GitHub: [@ronakjha2002](https://github.com/ronakjha2002) · HuggingFace: [ronakjha029](https://huggingface.co/ronakjha029)
