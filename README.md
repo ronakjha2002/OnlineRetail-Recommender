@@ -142,9 +142,9 @@ shopper-spectrum/
 
 | Metric | Value |
 |---|---|
-| Total transactions (cleaned) | ~490,000+ |
-| Unique customers | ~4,300+ |
-| KMeans Silhouette Score | ~0.44 |
+| Total transactions (cleaned) | 392,692 |
+| Unique customers | 4,338|
+| KMeans Silhouette Score | 0.6161 |
 | Products in similarity matrix | ~3,500+ |
 
 ---
@@ -165,17 +165,5 @@ Enter Recency, Frequency, Monetary → get predicted segment with recommended ma
 
 **ML techniques:** KMeans Clustering · StandardScaler · Cosine Similarity · RFM Analysis · Collaborative Filtering
 
----
 
-## 📚 References
 
-- Chen, D., Sain, S.L., and Guo, K. (2012). *Data mining for the online retail industry: A case study of RFM model-based customer segmentation*. Journal of Database Marketing & Customer Strategy Management, 19(3), 197–208.
-- UCI Machine Learning Repository — Online Retail II Dataset
-
----
-
-## 👤 Author
-
-**Ronak Jha**  
-M.Sc. Bioinformatics | Data Science & ML  
-GitHub: [@ronakjha2002](https://github.com/ronakjha2002) · HuggingFace: [ronakjha029](https://huggingface.co/ronakjha029)
