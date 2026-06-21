@@ -270,12 +270,6 @@ elif page == "📦 Product Recommendations":
             with st.spinner("Finding similar products..."):
                 recs, matched =get_recommendations(selected_product)
 
-            if not recs:
-                st.error(f"❌ No match found for **\"{product_input}\"**. Try a different keyword.")
-            else:
-                if matched.upper() != product_input.upper().strip():
-                    st.info(f"💡 Matched to: **{matched}**")
-
                 st.markdown(f"#### 🎯 Recommended Products for: *{matched}*")
                 st.markdown("")
 
