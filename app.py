@@ -87,7 +87,7 @@ st.markdown("""
 
 
 # ── Load models (cached) ──────────────────────────────────────────────────────
-MODEL_DIR = os.path.join(os.path.dirname(__file__), '..', 'models')
+MODEL_DIR = os.path.join(os.path.dirname(__file__), 'models')
 
 @st.cache_resource
 def load_models():
