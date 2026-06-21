@@ -249,11 +249,10 @@ elif page == "📦 Product Recommendations":
     col_input, col_info = st.columns([2, 1])
 
     with col_input:
-        product_input = st.text_input(
-            "Enter Product Name",
-            placeholder="e.g. WHITE HANGING HEART T-LIGHT HOLDER",
-            help="Partial matches are supported — just type part of the product name."
-        )
+       selected_product = st.selectbox(
+            "Select Product",
+            sorted(product_list)
+            )
 
         recommend_btn = st.button("🔍 Get Recommendations", type="primary")
 
@@ -272,7 +271,7 @@ elif page == "📦 Product Recommendations":
             st.warning("Please enter a product name.")
         else:
             with st.spinner("Finding similar products..."):
-                recs, matched = get_recommendations(product_input.strip())
+                recs, matched =get_recommendations(selected_product)
 
             if not recs:
                 st.error(f"❌ No match found for **\"{product_input}\"**. Try a different keyword.")
