@@ -267,9 +267,6 @@ elif page == "📦 Product Recommendations":
         """, unsafe_allow_html=True)
 
     if recommend_btn:
-        if not product_input.strip():
-            st.warning("Please enter a product name.")
-        else:
             with st.spinner("Finding similar products..."):
                 recs, matched =get_recommendations(selected_product)
 
