@@ -254,7 +254,7 @@ elif page == "📦 Product Recommendations":
             sorted(product_list)
             )
 
-        recommend_btn = st.button("🔍 Get Recommendations", type="primary")
+    recommend_btn = st.button("🔍 Get Recommendations", type="primary")
 
     with col_info:
         st.markdown(f"""
