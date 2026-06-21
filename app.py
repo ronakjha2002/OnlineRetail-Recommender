@@ -123,9 +123,8 @@ with st.sidebar:
     st.markdown("---")
     st.markdown(
         """
-        **Dataset:** UCI Online Retail II  
         **Model:** KMeans (k=4) + Cosine Similarity  
-        **Author:** Ronak Jha
+       
         """
     )
 
